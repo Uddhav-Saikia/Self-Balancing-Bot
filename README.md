@@ -4,7 +4,7 @@
 A self-balancing robot built using **Arduino**, **MPU6050 gyroscope/accelerometer**, and an **L298N motor driver**.  
 The robot uses sensor fusion and a PID control loop with a software Kalman filter to maintain its balance on two wheels.
 
----
+
 
 ## Features
 - Real-time angle measurement using **MPU6050 (I2C)**
@@ -13,7 +13,7 @@ The robot uses sensor fusion and a PID control loop with a software Kalman filte
 - Motor control through **L298N H-Bridge driver**
 - Compact 2-wheel chassis design
 
----
+
 
 ## Components Used
 - Arduino Uno / Nano  
@@ -25,7 +25,7 @@ The robot uses sensor fusion and a PID control loop with a software Kalman filte
 - Robot chassis (custom/DIY)  
 - Jumper wires & connectors  
 
----
+
 
 ## Circuit Diagram
 - **MPU6050 → Arduino**  
@@ -45,7 +45,7 @@ The robot uses sensor fusion and a PID control loop with a software Kalman filte
   - Motors powered via external battery to L298N  
   - Arduino powered via USB or regulated supply  
 
----
+
 
 ## Working Principle
 1. The **MPU6050** measures tilt angle (pitch).  
@@ -53,7 +53,7 @@ The robot uses sensor fusion and a PID control loop with a software Kalman filte
 3. A **PID controller** calculates correction signals.  
 4. The **L298N driver** adjusts motor speed and direction to maintain balance.  
 
----
+
 
 ## Installation & Setup
 1. Clone this repository:  
